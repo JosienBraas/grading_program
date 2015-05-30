@@ -29,7 +29,7 @@ def get_pancake_stats():
 def sort_pancake_list(list_of_people):
     """Return sorted list (high to low) of pancake eaters."""
     sorted_list_of_people = []
-    for f in sorted(list_of_people, key=lambda bl: bl[1], reverse=True):
+    for f in sorted(list_of_people, key=lambda t: t[1], reverse=True):
         sorted_list_of_people.append(f)
     return sorted_list_of_people
 
